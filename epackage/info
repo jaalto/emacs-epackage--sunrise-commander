@@ -1,0 +1,28 @@
+Package: sunrise-commander
+Section: files
+License: GPL-3+
+Depends: emacs (>= 23)
+Status: stable
+Archive:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: José Alfredo Romero L. <escherdragon@gmail.com>
+Upstream-Bugs: https://github.com/escherdragon/sunrise-commander/issues
+Vcs-Type: git
+Vcs-Url: git://github.com/escherdragon/sunrise-commander.git
+Vcs-Browser: https://github.com/escherdragon/sunrise-commander
+Homepage: https://github.com/escherdragon/sunrise-commander
+Wiki: http://www.emacswiki.org/emacs/Sunrise_Commander
+X-Development:
+  Upstream not interested in adjustmenting code for minor QA issues (Lint;
+  checkdoc) https://github.com/escherdragon/sunrise-commander/issues/20
+Commentary: midni
+Description: Emacs implementation of two-pane midnight commander mc(1)
+ A two-pane file manager. It's built atop of Dired and takes advantage of
+ all its power, but also provides many handy features of its own. It is
+ derived mode and can co-exist with other modes. By default it uses only
+ one or two buffers open to display panes. Each pane has a history stack to
+ traverse directories back and forth.
+ .
+ See http://www.emacswiki.org/emacs/Sunrise_Commander_Tips
+
